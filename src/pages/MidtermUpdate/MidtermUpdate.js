@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Typography } from '@material-ui/core';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { Header } from '../../components';
 import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
@@ -25,6 +26,7 @@ const MidtermUpdate = ({ tagChange }) => {
 
     return (
         <div className={classes.wrapper}>
+            <Header></Header>
             <Typography>
                 In progress
             </Typography>

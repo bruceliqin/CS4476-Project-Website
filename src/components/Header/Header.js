@@ -71,7 +71,11 @@ export default function Header(props) {
         <AppBar color={'secondary'}>
           <Toolbar>
             <section classeName={classes.leftJustify}>
-              <Typography color = 'primary'>CS4476 Project: Scene Text Detection</Typography>
+                <Link to="/" className={classes.link} >
+                  <Button className={classes.button}>
+                  <Typography color = 'primary'>CS4476 Project: Scene Text Detection</Typography>
+                  </Button>
+                </Link>
             </section>
             <section className = {classes.rightJustify}>
               <Box display="flex" flexDirection="row" justifyContent='space-between'>
