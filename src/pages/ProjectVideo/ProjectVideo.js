@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { Typography } from '@material-ui/core';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import { Header } from '../../components';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
     wrapper: {
@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
 
 const ProjectVideo = ({ tagChange }) => {
     const classes = useStyles();
-    const theme = useTheme();
+    //const theme = useTheme();
 
 
 

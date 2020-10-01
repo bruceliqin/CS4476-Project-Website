@@ -11,9 +11,9 @@ import GridContainer from "../Grid/GridContainer.js";
 import GridItem from "../Grid/GridItem.js";
 import Card from "../Card/Card.js";
 import CardBody from "../Card/CardBody.js";
-import CardFooter from "../Card/CardFooter.js";
+//import CardFooter from "../Card/CardFooter.js";
 
-import Button from "../CustomButtons/Button.js";
+//import Button from "../CustomButtons/Button.js";
 import styles from "./teamStyles.js";
 
 import team1 from "../../img/bruce.jpeg";
