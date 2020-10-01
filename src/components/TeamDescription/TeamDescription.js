@@ -17,7 +17,7 @@ import CardBody from "../Card/CardBody.js";
 import styles from "./teamStyles.js";
 
 import team1 from "../../img/bruce.jpeg";
-import team2 from "../../img/filler.png";
+import team2 from "../../img/tiantongli.jpeg";
 import team3 from "../../img/yiqin.jpg";
 import { Typography } from "@material-ui/core";
 
@@ -44,7 +44,7 @@ export default function Description() {
               <CardBody>
                   <Typography className={classes.description}>
                     I am an undergraduate Electrical Engineering student at Georgia Institute of Technology with a minor in Computer Science. 
-                  <br></br><a href="https://www.linkedin.com/in/bruce-qin">LinkedIn</a>.
+                  <br></br><a href="https://www.linkedin.com/in/bruce-qin">LinkedIn</a>
                   </Typography>
               </CardBody>
             </Card>
@@ -57,10 +57,8 @@ export default function Description() {
               <Typography className={classes.cardTitle}>Tiantong Li</Typography>
               <CardBody>
                   <Typography className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  I’m an undergraduate in Computer Science, focusing on Artificial Intelligence and Media. <br></br>
+                  <a href="https://www.linkedin.com/in/tiantongli">LinkedIn</a>
                   </Typography>
               </CardBody>
             </Card>
