@@ -52,7 +52,7 @@ class App extends React.Component {
           <main>
               <ThemeProvider theme={theme}>
                   <Switch>
-                      <Route exact path={`/`} component={Landing} exact />
+                      <Route exact path={`/`} component={Landing} /*exact*/ />
                       <Route exact path={`/proposal`} render={() => <Proposal/>} />
                       <Route exact path={`/midtermUpdate`} render={() => <MidtermUpdate/>} />
                       <Route exact path={`/finalUpdate`} render={() => <FinalUpdate/>} />

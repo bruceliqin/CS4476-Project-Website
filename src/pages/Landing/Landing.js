@@ -1,10 +1,10 @@
 import React from 'react';
 
 import { Typography, Box } from '@material-ui/core';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import { Header, TeamDescription } from '../../components';
-import { Link } from 'react-router-dom';
-import ButtonBase from '@material-ui/core/ButtonBase';
+//import { Link } from 'react-router-dom';
+//import ButtonBase from '@material-ui/core/ButtonBase';
 import mainFig from "../../img/digits.png";
 
 const useStyles = makeStyles((theme) => ({
@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Landing = () => {
     const classes = useStyles();
-    const theme = useTheme();
+    //const theme = useTheme();
 
     return (
         <div className={classes.wrapper}>
