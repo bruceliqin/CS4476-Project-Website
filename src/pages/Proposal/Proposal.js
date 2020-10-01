@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
         paddingBottom:'10px',
     },
     boxFormat: {
-        width: '80%',
+        width: '70%',
         paddingBottom:'30px',
     },
 }));
