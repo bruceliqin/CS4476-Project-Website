@@ -4,12 +4,14 @@ Bruce Li Qin
 Tiantong Li
 Yi Qin
 
-In the project directory, you can run:
-
-### `npm start`
 
 Installing required modules:
 npm install @material-ui/core --save
 npm install react-router-dom --save
 npm install classnames --save
+
+In the project directory, you can run:
+### `npm start`
+
+
 
