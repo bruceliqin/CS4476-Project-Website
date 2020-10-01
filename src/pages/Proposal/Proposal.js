@@ -47,6 +47,9 @@ const Proposal = ({ tagChange }) => {
         <div className={classes.wrapper}>
             <Header></Header>
             <Box className={classes.boxFormat}>
+            <Typography align='center' variant='h4' className={classes.lateTitleFormat}>
+                Problem Statement
+            </Typography>
             <Typography align='left' variant='subtitle1' className={classes.titleParagraphFormat}>
             When someone uses our system, they are expected to input images of house numbers displayed on streets. These images should be taken from a camera, or extracted from Google street view, with random background and diverse colors, but have the house numbers locating in the middle. The desired output is the same image with detected house numbers labeled besides the actual house numbers. <br></br>
             </Typography>
