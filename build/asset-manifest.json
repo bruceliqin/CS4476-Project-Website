@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "/CS4476-Project-Website/static/css/main.1aa5d802.chunk.css",
-    "main.js": "/CS4476-Project-Website/static/js/main.c57319fd.chunk.js",
-    "main.js.map": "/CS4476-Project-Website/static/js/main.c57319fd.chunk.js.map",
+    "main.js": "/CS4476-Project-Website/static/js/main.aff59b3a.chunk.js",
+    "main.js.map": "/CS4476-Project-Website/static/js/main.aff59b3a.chunk.js.map",
     "runtime-main.js": "/CS4476-Project-Website/static/js/runtime-main.39d87ec7.js",
     "runtime-main.js.map": "/CS4476-Project-Website/static/js/runtime-main.39d87ec7.js.map",
-    "static/js/2.0326bde1.chunk.js": "/CS4476-Project-Website/static/js/2.0326bde1.chunk.js",
-    "static/js/2.0326bde1.chunk.js.map": "/CS4476-Project-Website/static/js/2.0326bde1.chunk.js.map",
+    "static/js/2.1018e24f.chunk.js": "/CS4476-Project-Website/static/js/2.1018e24f.chunk.js",
+    "static/js/2.1018e24f.chunk.js.map": "/CS4476-Project-Website/static/js/2.1018e24f.chunk.js.map",
     "index.html": "/CS4476-Project-Website/index.html",
-    "precache-manifest.d325bebff7d46ffec6f002956084b8ee.js": "/CS4476-Project-Website/precache-manifest.d325bebff7d46ffec6f002956084b8ee.js",
+    "precache-manifest.08b29459d562519d04b242118ddc085e.js": "/CS4476-Project-Website/precache-manifest.08b29459d562519d04b242118ddc085e.js",
     "service-worker.js": "/CS4476-Project-Website/service-worker.js",
     "static/css/main.1aa5d802.chunk.css.map": "/CS4476-Project-Website/static/css/main.1aa5d802.chunk.css.map",
-    "static/js/2.0326bde1.chunk.js.LICENSE.txt": "/CS4476-Project-Website/static/js/2.0326bde1.chunk.js.LICENSE.txt",
+    "static/js/2.1018e24f.chunk.js.LICENSE.txt": "/CS4476-Project-Website/static/js/2.1018e24f.chunk.js.LICENSE.txt",
+    "static/js/main.aff59b3a.chunk.js.LICENSE.txt": "/CS4476-Project-Website/static/js/main.aff59b3a.chunk.js.LICENSE.txt",
+    "static/media/bruce.jpeg": "/CS4476-Project-Website/static/media/bruce.c497048c.jpeg",
     "static/media/filler.png": "/CS4476-Project-Website/static/media/filler.77f5794e.png",
-    "static/media/mainfig.png": "/CS4476-Project-Website/static/media/mainfig.234927da.png"
+    "static/media/yiqin.jpg": "/CS4476-Project-Website/static/media/yiqin.2892f654.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.39d87ec7.js",
-    "static/js/2.0326bde1.chunk.js",
+    "static/js/2.1018e24f.chunk.js",
     "static/css/main.1aa5d802.chunk.css",
-    "static/js/main.c57319fd.chunk.js"
+    "static/js/main.aff59b3a.chunk.js"
   ]
 }
