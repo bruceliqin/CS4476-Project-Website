@@ -44,7 +44,7 @@ export default function Description() {
               <CardBody>
                   <Typography className={classes.description}>
                     I am an undergraduate Electrical Engineering student at Georgia Institute of Technology with a minor in Computer Science. 
-                  <a href="https://www.linkedin.com/in/bruce-qin">LinkedIn</a>.
+                  <br></br><a href="https://www.linkedin.com/in/bruce-qin">LinkedIn</a>.
                   </Typography>
               </CardBody>
             </Card>

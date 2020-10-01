@@ -47,11 +47,12 @@ const Proposal = ({ tagChange }) => {
         <div className={classes.wrapper}>
             <Header></Header>
             <Box className={classes.boxFormat}>
-
+            <Typography align = 'center' variant = 'h4' className={classes.titleFormat}>
+                Problem Statement
+            </Typography>
             <Typography align='left' variant='subtitle1' className={classes.titleParagraphFormat}>
             When someone uses our system, they are expected to input images of house numbers displayed on streets. These images should be taken from a camera, or extracted from Google street view, with random background and diverse colors, but have the house numbers locating in the middle. The desired output is the same image with detected house numbers labeled besides the actual house numbers. <br></br>
             </Typography>
-
 
             <Typography align='center' variant='h4' className={classes.lateTitleFormat}>
                 Approach
@@ -70,9 +71,10 @@ const Proposal = ({ tagChange }) => {
             &nbsp; &nbsp; - The dataset comes in two different formats from SVHN: <br></br>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Images with character level bounding boxes <br></br>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - 32-by-32 images centered around single character <br></br>
-            &nbsp; &nbsp; - For images that do not have a bounding box, use YOLO to find the text box with a single neural network to predict &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;bounding boxes and label the bounding boxes  <br></br>
+            &nbsp; &nbsp; - For images that do not have a bounding box, use YOLO to find the text box with a single neural network to predict bounding boxes and label the <br></br>
+            &nbsp; &nbsp; &nbsp; &nbsp; bounding boxes  <br></br>
             &nbsp; &nbsp; - After the bounding boxes are determined, crop the image into individual digits. <br></br>
-            &nbsp; &nbsp; - Use findCountours() function in OpenCV library to detect separate portion of the image with continuous pixels of the &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  same color <br></br>
+            &nbsp; &nbsp; - Use findCountours() function in OpenCV library to detect separate portion of the image with continuous pixels of the same color <br></br>
             &nbsp; &nbsp; - Save each number <br></br><br></br>
             </Typography>
             <Typography align='left' variant='h6' className={classes.titleParagraphFormat}>Scene Text Recognition:</Typography>
