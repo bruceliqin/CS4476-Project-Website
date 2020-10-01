@@ -5,10 +5,10 @@ Tiantong Li
 Yi Qin
 
 
-Installing required modules:
-npm install @material-ui/core --save
-npm install react-router-dom --save
-npm install classnames --save
+Installing required modules: <br />
+npm install @material-ui/core --save <br />
+npm install react-router-dom --save <br />
+npm install classnames --save <br />
 
 In the project directory, you can run:
 ### `npm start`
