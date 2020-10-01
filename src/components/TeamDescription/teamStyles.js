@@ -27,6 +27,8 @@ const teamStyle = {
     color: "#6c757d"
   },
   description: {
+    fontFamily: '-apple-system',
+    //fontFamily : '"Space Mono"',
     color: "#999"
   },
   justifyCenter: {
