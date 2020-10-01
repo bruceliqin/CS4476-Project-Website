@@ -3,13 +3,14 @@ import imagesStyle from "./imageStyles.js";
 
 const teamStyle = {
   section: {
-    padding: "70px 0",
+    //padding: "70px 0",
     textAlign: "center"
   },
   title: {
     ...title,
     marginBottom: "1rem",
     fontFamily : '"Space Mono"',
+    color:'#212F3C',
     marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none"
@@ -22,6 +23,7 @@ const teamStyle = {
   cardTitle: {
     paddingTop : '10px',
     fontFamily : '"Space Mono"',
+    color:'#212F3C',
   },
   smallTitle: {
     color: "#6c757d"
