@@ -16,9 +16,9 @@ import CardBody from "../Card/CardBody.js";
 //import Button from "../CustomButtons/Button.js";
 import styles from "./teamStyles.js";
 
-import team1 from "../../img/bruce.png";
-import team2 from "../../img/tiantongli.png";
-import team3 from "../../img/yiqin.png";
+//import team1 from "../../img/bruce.png";
+//import team2 from "../../img/tiantongli.png";
+//import team3 from "../../img/yiqin.png";
 import { Typography } from "@material-ui/core";
 
 const useStyles = makeStyles(styles);
@@ -38,7 +38,7 @@ export default function Description() {
           <GridItem xs={8} sm={8} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={5} className={classes.itemGrid}>
-              <img src={team1} alt="..." className={imageClasses}></img>
+              <img src={require("../../img/bruce.png")} alt="..." className={imageClasses}></img>
               </GridItem>
               <Typography className={classes.cardTitle}>Bruce Qin</Typography>
               <CardBody>
@@ -52,7 +52,7 @@ export default function Description() {
           <GridItem xs={8} sm={8} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={5} className={classes.itemGrid}>
-              <img src={team2} alt="..." className={imageClasses}></img>
+              <img src={require("../../img/tiantongli.png")} alt="..." className={imageClasses}></img>
               </GridItem>
               <Typography className={classes.cardTitle}>Tiantong Li</Typography>
               <CardBody>
@@ -66,7 +66,7 @@ export default function Description() {
           <GridItem xs={8} sm={8} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={5} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses}></img>
+                <img src={require("../../img/yiqin.png")} alt="..." className={imageClasses}></img>
               </GridItem>
               <Typography className={classes.cardTitle}>Yi Qin</Typography>
               <CardBody>
