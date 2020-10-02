@@ -71,8 +71,7 @@ const Proposal = ({ tagChange }) => {
             &nbsp; &nbsp; - The dataset comes in two different formats from SVHN: <br></br>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Images with character level bounding boxes <br></br>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - 32-by-32 images centered around single character <br></br>
-            &nbsp; &nbsp; - For images that do not have a bounding box, use YOLO to find the text box with a single neural network to predict bounding boxes and label the <br></br>
-            &nbsp; &nbsp; &nbsp; &nbsp; bounding boxes  <br></br>
+            &nbsp; &nbsp; - For images that do not have a bounding box, use YOLO to find the text box with a single neural network to predict bounding boxes and label the bounding boxes  <br></br>
             &nbsp; &nbsp; - After the bounding boxes are determined, crop the image into individual digits. <br></br>
             &nbsp; &nbsp; - Use findCountours() function in OpenCV library to detect separate portion of the image with continuous pixels of the same color <br></br>
             &nbsp; &nbsp; - Save each number <br></br><br></br>
@@ -122,26 +121,22 @@ const Proposal = ({ tagChange }) => {
 
             <Typography align='left' variant='h6' className={classes.titleParagraphFormat}>Defining Success:</Typography>
             <Typography align='left' variant='subtitle1' className={classes.titleParagraphFormat}>
-            &nbsp; &nbsp; - Measure the precision of our predicted answer and the actual answer. Use the number of correct detection divided by <br></br> 
-            &nbsp; &nbsp; &nbsp; the total number of letter input. A successful detection expects the result to be at least 80%<br></br><br></br>
+            &nbsp; &nbsp; - Measure the precision of our predicted answer and the actual answer. Use the number of correct detection divided by the total number of letter input. A successful detection expects the result to be at least 80%<br></br><br></br>
             </Typography>
 
             <Typography align='left' variant='h6' className={classes.titleParagraphFormat}>List of Experiments to Perform:</Typography>
             <Typography align='left' variant='subtitle1' className={classes.titleParagraphFormat}>
-            &nbsp; &nbsp; - Use the images from the testing image pool as input for the above implementations. Considering the intensive amount <br></br> 
-            &nbsp; &nbsp; &nbsp; of data inside the pool, this should be enough for testing the system<br></br><br></br>
+            &nbsp; &nbsp; - Use the images from the testing image pool as input for the above implementations. Considering the intensive amount of data inside the pool, this should be enough for testing the system<br></br><br></br>
             </Typography>
 
             <Typography align='left' variant='h6' className={classes.titleParagraphFormat}>Expectation of Results:</Typography>
             <Typography align='left' variant='subtitle1' className={classes.titleParagraphFormat}>
-            &nbsp; &nbsp; - The experiments are expected to reveal successful detection and recognition of house numbers with an accuracy rate<br></br> 
-            &nbsp; &nbsp; &nbsp; of at least 80% <br></br><br></br>
+            &nbsp; &nbsp; - The experiments are expected to reveal successful detection and recognition of house numbers with an accuracy rate of at least 80% <br></br><br></br>
             </Typography>
 
             <Typography align='left' variant='h6' className={classes.titleParagraphFormat}>Uncertainties about Potential Outcomes:</Typography>
             <Typography align='left' variant='subtitle1' className={classes.titleParagraphFormat}>
-            &nbsp; &nbsp; - With regard to the natural lighting conditions and other image precision factors, it is uncertain if the output for<br></br> 
-            &nbsp; &nbsp; &nbsp; blurry/low precision images is desirable enough<br></br>
+            &nbsp; &nbsp; - With regard to the natural lighting conditions and other image precision factors, it is uncertain if the output for blurry/low precision images is desirable enough<br></br>
             </Typography>
 
             </Box>

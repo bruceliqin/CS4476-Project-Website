@@ -16,9 +16,9 @@ import CardBody from "../Card/CardBody.js";
 //import Button from "../CustomButtons/Button.js";
 import styles from "./teamStyles.js";
 
-import team1 from "../../img/bruce.jpeg";
-import team2 from "../../img/tiantongli.jpeg";
-import team3 from "../../img/yiqin.jpg";
+import team1 from "../../img/bruce.png";
+import team2 from "../../img/tiantongli.png";
+import team3 from "../../img/yiqin.png";
 import { Typography } from "@material-ui/core";
 
 const useStyles = makeStyles(styles);
