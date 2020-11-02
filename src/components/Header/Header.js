@@ -107,6 +107,13 @@ export default function Header(props) {
                   </Button>
                 </Link>
               </Box>
+              <Box p = {1}>
+                <Link to="/references" className={classes.link} >
+                  <Button className={classes.button}>
+                    <Typography>References</Typography>
+                  </Button>
+                </Link>
+              </Box>
               </Box>
             </section>
           </Toolbar>

@@ -3,7 +3,7 @@ import { createMuiTheme } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/core';
 import { Route, Switch } from 'react-router-dom';
 
-import { Landing, MidtermUpdate, ProjectVideo, FinalUpdate, Proposal } from './pages';
+import { Landing, MidtermUpdate, ProjectVideo, FinalUpdate, Proposal, References } from './pages';
 
 import styles from './App.css';
 
@@ -57,6 +57,7 @@ class App extends React.Component {
                       <Route exact path={`/midtermUpdate`} render={() => <MidtermUpdate/>} />
                       <Route exact path={`/finalUpdate`} render={() => <FinalUpdate/>} />
                       <Route exact path={`/projectVideo`} render={() => <ProjectVideo/>} />
+                      <Route exact path={`/references`} render={() => <References/>} />
                   </Switch>
               </ThemeProvider>
           </main>
