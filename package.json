@@ -1,7 +1,7 @@
 {
-  "homepage": "http://bruceliqin.github.io/CS4476-Project-Website",
   "name": "project-one",
   "version": "0.1.0",
+  "homepage":".",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
