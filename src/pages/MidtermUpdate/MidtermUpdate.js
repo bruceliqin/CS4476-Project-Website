@@ -151,7 +151,7 @@ const MidtermUpdate = ({ tagChange }) => {
                 For our convolution layer, we are using a 5x5 filter as it provides a measurer for rhow close a patch of input resembles a feature, the weights in the filter
                 matrix are derived while training the data. We will use Rectified Linear Unit (RELU) as our activation function, it aims at introducing non-linearities to the network. As our input data is of size 32x32, with 1-5 digits within one input, a small filter of size 5x5 would be
                 more appropriate to collect representative information. The number of channels will be 1 as it should be equal to the number of color channels for the input, and 
-                our images are in gray-scale. The first 7 layers of the network are CONV-RELU layers and POOL layers. The number of filters for the first two layers are of 32, next three layers are of 64, and the next 3 are of 128.
+                our images are in gray-scale. The first 7 layers of the network are CONV-RELU layers and POOL layers. The number of filters for the first two layers are of 32, next three layers are of 64, and the next two are of 128.
                 We increase the number as to increase the depth of the feature space, such that we can learn more levels of global abstract features. We set padding = same as the borders
                 of the image is important and we also want to perform more convolutions without shrinking size. <br></br>
                 </Typography>
