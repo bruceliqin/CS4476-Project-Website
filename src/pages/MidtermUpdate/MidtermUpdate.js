@@ -189,7 +189,7 @@ const MidtermUpdate = ({ tagChange }) => {
                 This will be the next step to our project, after training our neural network, we will be using the optimization algorithm mentioned above and then evaluate the performance for the 
                 final update. We will also continue to look into other potential preprocessing techniques other than mean-subtraction. At the midterm point, we find ourselves slightly behind where we wanted
                 to be due to the complexity of neural network. But we believe we understand how to set up each layer and tune the hyperparameters and we will soon be training our network. More details on
-                performance will be included in the final update.<br></br>
+                performance will be included in the final update.<br></br><br></br><br></br>
                 </Typography>
             </Box>
 

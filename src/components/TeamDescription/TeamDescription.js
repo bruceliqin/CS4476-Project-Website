@@ -32,7 +32,7 @@ export default function Description() {
   );
   return (
     <div className={classes.section}>
-      <Typography variant = 'h5' className={classes.title}>Here is our team</Typography>
+      <Typography variant = 'h5' className={classes.title}>Team Members</Typography>
       <div>
         <GridContainer className={classes.justifyCenter}>
           <GridItem xs={8} sm={8} md={3}>
