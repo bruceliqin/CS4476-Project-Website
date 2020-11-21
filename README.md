@@ -13,5 +13,5 @@ npm install classnames --save <br />
 In the project directory, you can run:
 ### `npm start`
 
-
+Made using Javascript, HTML and CSS.
 
